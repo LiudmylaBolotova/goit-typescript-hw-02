@@ -1,6 +1,6 @@
-type anythingType = number | string | object;
 
-let anything: anythingType = -20;
+
+let anything: any = -20;
 anything = 'Text';
 anything = {};
 
